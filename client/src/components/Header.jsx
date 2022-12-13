@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom"
+import "../css/Header.css"
 
 export default function Header() {
     return (
-        <div>
-            <ul>
+        <div className="nav-container">
+            <ul className="navbar">
                 <li>
-                    <button><Link to="/about">About</Link></button>
+                    <button><Link to="/">Home</Link></button>
+                </li>
+                <li>
+                    <button><Link to="/skills">Skills</Link></button>
                 </li>
                 <li>
                     <button><Link to="/contact">Contact</Link></button>

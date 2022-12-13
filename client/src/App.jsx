@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import './App.css'
-import About from "./components/About";
+import './css/App.css'
+import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -11,12 +11,14 @@ function App() {
     <Router>
     <div className="App">
       <Header />
+      <div className="bodyContainer">
       <Routes>
         <Route path="/*" element={<Home />}/>
-        <Route path="/about" element={<About />}/>
+        <Route path="/skills" element={<Skills />}/>
         <Route path="/projects" element={<Projects />}/>
         <Route path="/contact" element={<Contact />}/>
       </Routes>
+      </div>
     </div>
     </Router>
   )
