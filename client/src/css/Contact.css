@@ -1,0 +1,12 @@
+address {
+    background-color:var(--thirdary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.icons {
+    width: 4rem;
+}

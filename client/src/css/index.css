@@ -6,3 +6,9 @@ html, body {
 #root {
     height: 100%;
 }
+
+:root {
+    --main-bg-color: white;
+    --secondary-color: #00A7E1;
+    --thirdary-color: #00171F;
+}

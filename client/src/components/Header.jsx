@@ -6,16 +6,16 @@ export default function Header() {
         <div className="nav-container">
             <ul className="navbar">
                 <li>
-                    <button><Link to="/">Home</Link></button>
+                    <button className="headerBtn btn"><Link to="/">Home</Link></button>
                 </li>
                 <li>
-                    <button><Link to="/skills">Skills</Link></button>
+                    <button className="headerBtn btn"><Link to="/skills">Skills</Link></button>
                 </li>
                 <li>
-                    <button><Link to="/contact">Contact</Link></button>
+                    <button className="headerBtn btn"><Link to="/contact">Contact</Link></button>
                 </li>
                 <li>
-                    <button><Link to="/projects">Projects</Link></button>
+                    <button className="headerBtn btn"><Link to="/projects">Projects</Link></button>
                 </li>
             </ul>
         </div>

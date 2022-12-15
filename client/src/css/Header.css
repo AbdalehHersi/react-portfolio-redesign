@@ -1,10 +1,31 @@
-/* .nav-container {
-} */
+.nav-container {
+    display: inline;
+    position: sticky;
+    top: 0;
+}
 
 .navbar {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
-    padding: 2rem;
+    justify-content: flex-end;
+    padding: 1rem;
+    margin: 0;
     flex-wrap: wrap;
+    background-color: white;
+    border-bottom: 1px solid #00171F;
+}
+
+.headerBtn {
+    margin: 0.2rem 1rem 0.2rem 1rem;
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: #00A7E1;
+    border-color: #00171F;
+    padding: 0.2rem;
+}
+
+.nav-container > li {
+    display: inline;
 }
