@@ -1,18 +1,22 @@
 .nav-container {
     display: inline;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    /* top: 0; */
+    transition: all 0.5s ease-out;
+    opacity: 0.3;
+}
+
+.nav-container:hover {
+    opacity: 1;
 }
 
 .navbar {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    padding: 1rem;
+    padding: 2rem;
     margin: 0;
     flex-wrap: wrap;
-    background-color: white;
-    border-bottom: 1px solid #00171F;
 }
 
 .headerBtn {

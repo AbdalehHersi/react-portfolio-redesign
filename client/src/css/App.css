@@ -4,6 +4,6 @@
 
 .bodyContainer {
     padding: 2rem;
-    background-color: #fff;
-    height: 70vh;
+    height: 90vh;
+    /* max-height: 80vh; */
 }

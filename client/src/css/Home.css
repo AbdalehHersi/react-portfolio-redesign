@@ -3,10 +3,11 @@
 .titleContainer {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 5vw;
+    -webkit-text-stroke: 2px #00171F;
 }
 .titleContainer > h1 {
-    background-image: url("../assets/colorful-clouds2.jpg");
+    background-image: url("../assets/gradientGif.gif");
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
@@ -18,4 +19,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.aboutContainer {
+    border: 3px solid #00171F;
+    border-style: dotted;
+    position: relative;
+}
+
+.aboutHeader {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.aboutHeaderContainer {
+    background-image: url("../assets/colorful-clouds2.jpg");
+    background-size: contain;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 2px #00171F;
+    color: transparent;
+    /* text-align: center; */
 }

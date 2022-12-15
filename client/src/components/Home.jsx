@@ -7,7 +7,9 @@ export default function Home() {
                 <h1>Abdaleh Hersi</h1>
             </div>
             <div className="aboutContainer">
-                <h1>About Me</h1>
+                <div className="aboutHeaderContainer">
+                    <h1 className="aboutHeader">About Me</h1>
+                </div>
                 <p>I'm an aspiring full-stack web developer with a passion for all things technological.
                     With a couple of projects under my belt and a bunch of technologies at hand,
                     I feel ready to take on the world.</p>
