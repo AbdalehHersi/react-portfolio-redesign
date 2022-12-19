@@ -2,7 +2,7 @@ import CV from "../assets/Abdaleh Hersi - Resume.pdf"
 
 export default function Skills() {
     return (
-        <div className="skillContainer">
+        <div className="skillContainer focus-in">
             <a href={CV} alt="CV" download="CV">Download My CV</a>
             <h1>Skills, Strengths and Proficiencies:</h1>
             <ul>

@@ -1,6 +1,8 @@
 
 export default function Projects() {
     return (
-        <h1>Projects</h1>
+        <div className="focus-in">
+            <h1>Projects</h1>
+        </div>
     )
 }

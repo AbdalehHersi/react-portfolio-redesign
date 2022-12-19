@@ -76,11 +76,11 @@
 
 .aboutHeaderContainer {
     /* background-image: url("../assets/colorful-clouds2.jpg"); */
-    background-size: contain;
+    /* background-size: contain;
     -webkit-background-clip: text;
-    background-clip: text;
+    background-clip: text; */
     -webkit-text-stroke: 1px #00171F;
-    color: #6fba82;
+    color: #f98366;
     width: 30vw;
     /* text-align: center; */
 }
@@ -110,5 +110,6 @@
 cite {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 3rem;
+    color: #f79533;
 }
 

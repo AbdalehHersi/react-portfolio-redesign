@@ -2,13 +2,13 @@ import "../css/Home.css"
 
 export default function Home() {
     return (
-        <div className="homeContainer">
+        <div className="homeContainer focus-in">
             <div className="titleContainer">
                 <h1>Abdaleh Hersi</h1>
             </div>
             <div className="aboutContainer">
                 <div className="aboutHeaderContainer">
-                    <h1 className="aboutHeader">About Me</h1>
+                    <h1 className="aboutHeader flicker-in-glow">About Me</h1>
                 </div>
                 <div className="aboutText gradient-border">
                     <p>I'm an aspiring full-stack web developer with a passion for all things technological.
