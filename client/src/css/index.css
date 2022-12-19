@@ -1,6 +1,14 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
+}
+
+
+html {
+    background-image: url("../assets/blob-scene-haikei.svg");
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 #root {

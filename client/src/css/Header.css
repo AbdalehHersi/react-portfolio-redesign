@@ -1,20 +1,23 @@
 .nav-container {
-    display: inline;
-    position: fixed;
-    /* top: 0; */
-    transition: all 0.5s ease-out;
-    opacity: 0.3;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.nav-container:hover {
-    opacity: 1;
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .navbar {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    padding: 2rem;
+    padding: 0;
     margin: 0;
     flex-wrap: wrap;
 }
@@ -25,8 +28,8 @@
 }
 
 .btn {
-    background-color: #00A7E1;
-    border-color: #00171F;
+    background-color: transparent;
+    border: 0;
     padding: 0.2rem;
 }
 
