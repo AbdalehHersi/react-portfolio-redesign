@@ -1,4 +1,5 @@
 import "../css/Home.css"
+import Portrait from "../assets/portrait.jpg"
 
 export default function Home() {
     return (
@@ -9,6 +10,7 @@ export default function Home() {
             <div className="aboutContainer">
                 <div className="aboutHeaderContainer">
                     <h1 className="aboutHeader flicker-in-glow">About Me</h1>
+                        <img className="portrait" src={Portrait} alt="portrait" />
                 </div>
                 <div className="aboutText gradient-border">
                     <p>I'm an aspiring full-stack web developer with a passion for all things technological.

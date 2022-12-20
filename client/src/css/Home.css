@@ -5,7 +5,7 @@
     background: #1D1F20;
     position: relative;
     border-radius: var(--borderWidth);
-  }
+}
 
 .gradient-border:after {
     content: '';
@@ -59,6 +59,11 @@
     align-items: center;
 }
 
+.portrait {
+    width: 10vw;
+    border-radius: 50%;
+}
+
 .aboutContainer {
     display: flex;
     justify-content: center;
@@ -79,12 +84,6 @@
     color: #f98366;
     width: 30vw;
 }
-/* 
-@media (max-width:1025px) { 
-    .aboutContainer {
-        color: #00171F;
-    }
-} */
 
 .aboutText>p::first-letter {
     font-size: 5rem;
@@ -102,9 +101,26 @@
     width: 30vw;
 }
 
+@media (max-width: 1025px) {
+    .aboutContainer {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 60vw;
+    }
+
+    .aboutHeaderContainer {
+        text-align: center;
+        width: 50vw;
+    }
+
+    .aboutText {
+        width: 40vw;
+    }
+}
+
 cite {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 3rem;
     color: #f79533;
 }
-

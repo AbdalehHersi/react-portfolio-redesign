@@ -9,13 +9,13 @@ export default function Header() {
                     <button className="headerBtn btn"><Link className="link" to="/">Home</Link></button>
                 </li>
                 <li>
-                    <button className="headerBtn btn"><Link className="link" to="/contact">Contact</Link></button>
-                </li>
-                <li>
                     <button className="headerBtn btn"><Link className="link" to="/projects">Projects</Link></button>
                 </li>
                 <li>
                     <button className="headerBtn btn"><Link className="link" to="/skills">Skills</Link></button>
+                </li>
+                <li>
+                    <button className="headerBtn btn"><Link className="link" to="/contact">Contact</Link></button>
                 </li>
             </ul>
         </div>
