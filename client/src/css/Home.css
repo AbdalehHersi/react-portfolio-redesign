@@ -69,20 +69,15 @@
 
 .aboutHeader {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 6rem;
     margin: 1rem 1rem 1rem 2rem;
 }
 
 .aboutHeaderContainer {
-    /* background-image: url("../assets/colorful-clouds2.jpg"); */
-    /* background-size: contain;
-    -webkit-background-clip: text;
-    background-clip: text; */
     -webkit-text-stroke: 1px #00171F;
     color: #f98366;
     width: 30vw;
-    /* text-align: center; */
 }
 /* 
 @media (max-width:1025px) { 

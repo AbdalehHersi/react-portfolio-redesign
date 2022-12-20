@@ -5,9 +5,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
 }
 
-a {
+.link {
+    background-color: rgb(255, 140, 0);
+    padding: 4px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
     text-decoration: none;
@@ -16,6 +19,15 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+a:link {
+    color: rgb(34, 0, 89);
+}
+
+a:visited {
+    color: rgba(140, 7, 0, 0.146);
+}
+
 
 .navbar {
     list-style: none;
