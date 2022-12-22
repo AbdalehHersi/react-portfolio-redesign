@@ -1,3 +1,16 @@
+@import url('https://fonts.oogleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;1,300&family=Chivo+Mono:ital,wght@1,100&family=IBM+Plex+Sans:wght@300;700&display=swap');
+
+:root {
+    --main-light-orange:  #f79533;
+    --main-orange:  #f37055;
+    --main-red:  #ef4e7b;
+    --main-purple:  #a166ab;
+    --main-blue:  #5073b8;
+    --main-light-teal:  #1098ad,
+    --main-light-green: #07b39b,
+    --main-light-blue: #6fba82,
+}
+
 .App {
     height: 100%;
 }
@@ -6,4 +19,9 @@
     padding: 1rem;
     height: 90vh;
     /* max-height: 80vh; */
+}
+
+.icons {
+    width: 4rem;
+    padding: 1rem;
 }

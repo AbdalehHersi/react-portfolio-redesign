@@ -1,0 +1,22 @@
+.projImg {
+    width: 60vw;
+}
+
+.projDetails {
+    text-align: center;
+}
+
+.projDetails > h1 {
+    font-family: 'Chivo Mono', monospace;
+    color: var(--main-light-orange);
+}
+
+.projDetails > h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--main-orange);
+}
+
+.projImage {
+    display: flex;
+    justify-content: center;
+}
