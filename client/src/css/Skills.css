@@ -1,0 +1,36 @@
+.skillContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 70vh;
+}
+
+.skillContainer > h1, a {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.skillContainer > a {
+    font-size: 3rem;
+}
+
+.skillContainer > h1 {
+    font-size: 3rem;
+    color: var(--main-light-orange);
+}
+
+.listContainer {
+    display: grid;
+    font-size: 2rem;
+    list-style: armenian;
+}
+
+.listItem {
+    margin: 0 2rem 0 2rem;
+    color: #34734a;
+}
+
+.listItem::first-letter {
+    color: #14b249;
+}
