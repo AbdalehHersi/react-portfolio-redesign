@@ -4,8 +4,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import Projects from "./components/Projects";
-import { data } from "./data/projectData";
+import ProjectContainer from "./components/ProjectContainer";
 
 function App() {
   return (
@@ -16,9 +15,7 @@ function App() {
       <Routes>
         <Route path="/*" element={<Home />}/>
         <Route path="/skills" element={<Skills />}/>
-        <Route path="/projects" element={
-          data.map((data) => <Projects key={data.id} individual={data} />)
-          }/>
+        <Route path="/projects" element={<ProjectContainer />}/>
         <Route path="/contact" element={<Contact />}/>
       </Routes>
       </div>
