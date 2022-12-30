@@ -1,5 +1,5 @@
 import "../css/Project.css";
-import icon from "../assets/githubicon.png";
+import icon from "../assets/githubcon.png";
 import webpage from "../assets/webpageIcon.png";
 
 export default function Projects(props) {
