@@ -1,5 +1,5 @@
 import Github from "../assets/githubicon.png"
-import LinkedIn from "../assets/linkedin.png"
+import LinkedIn from "../assets/linkedIn.png"
 import StackOverflow from "../assets/StackOverflow.png"
 import "../css/Contact.css"
 
