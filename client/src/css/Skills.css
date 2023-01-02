@@ -20,6 +20,21 @@
     color: var(--main-light-orange);
 }
 
+@media (max-width: 470px) {
+    .skillContainer > h1 {
+        font-size: clamp(1rem, 1.5rem, 3rem);
+    }
+
+    .nav-container {
+        margin-bottom: 4vh;
+    }
+
+    .skillContainer > a {
+        margin-top: 2rem;
+        font-size: clamp(1rem, 2rem, 3rem);
+    }
+}
+
 .listContainer {
     display: grid;
     font-size: 2rem;

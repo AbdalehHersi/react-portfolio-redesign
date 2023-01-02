@@ -5,10 +5,10 @@ import "../css/Contact.css"
 
 export default function Contact() {
     return (
-        <div className="focus-in">
+        <div className="focus-in contact">
             <address>
                 <div className="contactContainer gradient-border">
-                    <h1>You can email me on <a href="mailto:hersiabdaleh@gmail.com" id="link">hersiabdaleh@gmail.com</a>.</h1>
+                    <h1 id="linkCont">You can email me on <a href="mailto:hersiabdaleh@gmail.com" id="link">hersiabdaleh@gmail.com</a>.</h1>
                     <h1>Or you can check out my social media:</h1>
                     <div className="socials">
                         <a href="https://github.com/AbdalehHersi" target="_blank">

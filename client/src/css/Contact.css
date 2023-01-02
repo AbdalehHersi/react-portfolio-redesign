@@ -19,3 +19,17 @@ address {
 #link {
     color: var(--main-light-orange);
 }
+
+#linkCont {
+    font-size: clamp(2.6vw, 2.7vw, 3.2vw);
+}
+
+@media (max-width: 500px) {
+    .contactContainer {
+        width: 70vw;
+    }
+
+    #linkCont {
+        font-size: 5vw;
+    }
+}
